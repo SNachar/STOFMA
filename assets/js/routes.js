@@ -115,9 +115,9 @@ angular.module('stofmaApp')
           .state('user.products', {
             url: '/stall',
             controller: 'StallProductCtrl',
-            templateUrl: 'assets/templates/stallproducts.html',
+            templateUrl: 'assets/templates/sell.html',
             data: {
-              name: 'La cafet\'',
+              name: 'Le bar',
               icon: 'local_dining'
             },
             resolve: {
