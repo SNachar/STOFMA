@@ -6,17 +6,8 @@ angular.module('stofmaApp.services')
       this.payments = [];
 
       this.paymentModes = [{
-        'id': 'IN_CASH',
-        'name': 'Liquide'
-      }, {
         'id': 'IN_CREDIT',
         'name': 'Crédit'
-      }, {
-        'id': 'IN_TRANSFER',
-        'name': 'Virement'
-      }, {
-        'id': 'IN_CHECK',
-        'name': 'Chèque'
       },{
         'id': 'OUT_CASH',
         'name': 'Liquide'
