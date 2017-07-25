@@ -112,19 +112,24 @@ angular.module('stofmaApp')
               }
             }
           })
-          .state('user.products', {
-            url: '/stall',
-            controller: 'StallProductCtrl',
+          .state('user.sell', {
+            url: '/sell',
+            controller: 'ManageSellCtrl',
             templateUrl: 'assets/templates/sell.html',
             data: {
               name: 'Le bar',
-              icon: 'local_dining'
+              icon: 'add_shopping_cart'
             },
             resolve: {
-              productsProvider: 'ProductService',
+              productProvider: 'ProductService',
 
-              productsData: function (productsProvider) {
-                return productsProvider.getProducts(true);
+              productsData: function (productProvider) {
+                return productProvider.getProducts(true);
+              },
+              usersProvider: 'UserService',
+
+              usersData: function (usersProvider) {
+                return usersProvider.getAll();
               }
             }
           })
