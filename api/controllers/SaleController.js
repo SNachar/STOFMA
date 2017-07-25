@@ -48,7 +48,7 @@ module.exports = {
             });
           }
           //check if he has enough credit
-          else if(req.param('typePayment') == 'IN_CREDIT' && customer.credit - 20 < totalPrice) {
+          else if(req.param('typePayment') == 'IN_CREDIT' && customer.credit < totalPrice) {
             //destroy the new pairs if he hasn't
             Pair.deletePairs(pairs,true)
             .then(function(){
