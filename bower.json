@@ -1,8 +1,8 @@
 {
   "name": "stofma",
   "description": "Student Office Manager",
-  "version": "1.2.0",
-  "homepage": "https://github.com/ciaa-cnam/STOFMA",
+  "version": "LMT-1.2.0",
+  "homepage": "https://github.com/SNachar/STOFMA",
   "dependencies": {
     "angular": "~1.4.6",
     "angular-material": "0.11.2",

@@ -1,9 +1,9 @@
-# STOFMA - Student Office Manager
+# STOFMA - Student Office Manager - Version LMT
 
 [![Build Status](https://travis-ci.org/TentaCrew/STOFMA.svg?branch=master)](https://travis-ci.org/TentaCrew/STOFMA)
 [![Coverage Status](https://coveralls.io/repos/github/TentaCrew/STOFMA/badge.svg?branch=master)](https://coveralls.io/github/TentaCrew/STOFMA?branch=master)
 
-## Let us show you what we did !
+## Screenshots from the original version
 ### Mobile version
 <img src="https://cloud.githubusercontent.com/assets/5452616/11762046/58521264-a0d9-11e5-82bb-30dce43db22e.png" width="400">
 <img src="https://cloud.githubusercontent.com/assets/5452616/11762043/58518ab0-a0d9-11e5-8c80-f608b9cfb087.png" width="400">
@@ -55,3 +55,8 @@ npm start
  - [Corentin Desfarges](http://corentindesfarges.fr)
  - [Michel Edighoffer](http://book.micheledighoffer.fr/)
  - [Frédéric Woelffel](https://fwoelffel.me/)
+
+
+## Webmaster pour le LMT
+ - [Stéphane Nachar](#)
+

@@ -1,6 +1,6 @@
 {
   "name": "stofma",
-  "version": "1.2.0",
+  "version": "LMT-1.2.0",
   "description": "Student Office Manager",
   "keywords": [
     "student",
@@ -42,12 +42,12 @@
     "install": "bower install"
   },
   "main": "app.js",
-  "homepage": "https://github.com/ciaa-cnam/STOFMA",
+  "homepage": "https://github.com/SNachar/STOFMA",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ciaa-cnam/STOFMA"
+    "url": "git://github.com/SNachar/STOFMA"
   },
-  "bugs": "https://github.com/ciaa-cnam/STOFMA/issues",
+  "bugs": "https://github.com/SNachar/STOFMA/issues",
   "author": {
     "name": "Frédéric Woelffel",
     "url": "http://fredericwoelffel.com",
