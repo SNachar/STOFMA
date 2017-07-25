@@ -52,10 +52,10 @@ module.exports.policies = {
 
   'PurchaseController': {
     '*':        false,
-    'add':      'authenticated',
-    'update':   'authenticated',
-    'delete':   'authenticated',
-    'get':      'authenticated'
+    'add':      'isManager',
+    'update':   'isManager',
+    'delete':   'isManager',
+    'get':      'isManager'
   },
 
   'SessionController': {
@@ -65,16 +65,16 @@ module.exports.policies = {
 
   'SaleController': {
     '*':        false,
-    'add':      'authenticated',
-    'update':   'authenticated',
-    'delete':   'authenticated',
+    'add':      'isManager',
+    'update':   'isManager',
+    'delete':   'isManager',
     'get':      'authenticated'
   },
 
   'PaymentController': {
     '*':        false,
-    'add':      'authenticated',
-    'get':      'authenticated'
+    'add':      'isManager',
+    'get':      'isManager'
   }
 
 };
