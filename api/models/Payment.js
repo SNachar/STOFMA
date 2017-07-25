@@ -33,6 +33,7 @@ module.exports = {
       in: ['IN_CREDIT',       //> is for users who give money to credit their account
            'IN_CASH',         //> is for users who pay smthg with cash
            'IN_CHECK',        //> is for users who pay smthg with a check
+           'IN_PAYPAL',        //> is for users who pay smthg with Paypal		
            'IN_TRANSFER',     //> is for users who pay smthg by a bank transfer
            'OUT_CASH',        //> is when the association pay smthg with cash
            'OUT_CHECK',       //> is when the association pay smthg with a check
@@ -66,6 +67,9 @@ module.exports = {
       case 'IN_TRANSFER' :
         values.name = 'Virement';
         break;
+    	case 'IN_PAYPAL' :
+      	values.name = 'Paypal';
+      	break;		
       case 'OUT_CASH' :
         values.name = 'Espèces';
         break;

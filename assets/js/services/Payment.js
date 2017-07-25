@@ -18,6 +18,9 @@ angular.module('stofmaApp.services')
         'id': 'IN_CHECK',
         'name': 'Chèque'
       },{
+        'id': 'IN_PAYPAL',
+        'name': 'Paypal'
+      },{		  
         'id': 'OUT_CASH',
         'name': 'Liquide'
       }, {
