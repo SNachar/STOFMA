@@ -65,9 +65,9 @@ module.exports.policies = {
 
   'SaleController': {
     '*':        false,
-    'add':      'isManager',
-    'update':   'isManager',
-    'delete':   'isManager',
+    'add':      'authenticated',
+    'update':   'authenticated',
+    'delete':   'authenticated',
     'get':      'authenticated'
   },
 
